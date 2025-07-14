@@ -1,0 +1,28 @@
+{
+  "Version": "1.0.0",
+  "Author": "Steven",
+  "Name": "Mic Drop",
+  "Description": "Toggle Mic Drop mute / unmute",
+  "Icon": "assets/icons/mic-live.png",
+  "UUID": "com.ulanzi.micdrop",
+  "Category": "Audio",
+  "CategoryIcon": "assets/icons/mic-live.png",
+  "CodePath": "dist/app.js",
+  "Type": "JavaScript",
+  "PrivateAPI": true,
+  "Actions": [
+    {
+      "Name": "Toggle Mic",
+      "Tooltip": "Shift-⌘-M",
+      "UUID": "com.ulanzi.micdrop.toggle",
+      "Icon": "assets/icons/action.png",
+      "PropertyInspectorPath": "property-inspector/mic/inspector.html",
+      "state": 0,
+      "States": [
+        { "Image": "assets/icons/mic-live.png" },
+        { "Image": "assets/icons/mic-muted.png" }
+      ],
+      "SupportedInMultiActions": false
+    }
+  ]
+}
